@@ -28,6 +28,8 @@ namespace S3NAntTask {
         [StringValidator(AllowEmpty = false)]
         public string FilePath { get; set; }
 
+        //put file set here
+
         [TaskAttribute("key", Required = false)]
         [StringValidator(AllowEmpty = false)]
         public string Key { get; set; }
